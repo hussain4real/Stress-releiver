@@ -74,6 +74,17 @@ body {
   display: block;
 }
 
+@media screen and (max-width: 480px) {
+  .pointer-container {
+    height: 180px;
+    top: -30px;
+  }
+
+  .pointer {
+    background-color: aqua;
+  }
+}
+
 .container.grow {
   animation: grow 3s linear forwards;
 }
