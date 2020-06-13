@@ -111,3 +111,15 @@ body {
     transform: scale(1);
   }
 }
+
+#copyright {
+  color: beige;
+  font-size: 1rem;
+  text-align: center;
+  /* margin-bottom: -3rem;
+  margin-top: 3rem; */
+}
+
+#copyright:hover {
+  color: darkolivegreen;
+}
